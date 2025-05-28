@@ -8,17 +8,17 @@
   /* Cambiado de column a row */
   gap: 12px;
   align-items: center;
-  background-color: var(--main-color);
+  background-color: #2e2e2e;
   border: 2px solid #F8F4F0;
 }
 
 .music-button {
-  background-color: #B66E41;
+  background-color: #2e2e2e;
   border: none;
   cursor: pointer;
   transition: transform 0.2s ease;
-  width: 38px;
-  height: 38px;
+  width: 42px;
+  height: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,7 +30,7 @@
 }
 
 .cta-button {
-  background-color: #B66E41;
+  background-color: #2e2e2e;
   color: #F8F4F0;
   border: none;
   border-left: 2px solid #F8F4F0;

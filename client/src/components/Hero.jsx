@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className="heroContainer">
       <div className="heroMask"></div>
-      <div className="heroNames">María & Juan</div>
+      <div className="heroNames">María</div>
     </div>
   );
 }

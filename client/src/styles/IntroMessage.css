@@ -5,12 +5,12 @@
     justify-content: center;
     padding: 5rem 0;
     background-color: var(--main-color);
-    color: #F8F4F0;
+    color: #2e2e2e;
 }
 
 .introMessageContainer h2{
-    border-top: 1px solid #F8F4F0;
-    border-bottom: 1px solid #F8F4F0;
+    border-top: 1px solid #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
     padding: 3rem 2rem;
     text-align: center;
     font-weight: 400;

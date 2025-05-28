@@ -106,7 +106,7 @@ const PasswordOverlay = ({ musicRef }) => {
             <div className="password-container" ref={containerRef}>
                 <h2 className="password-container-title">Bienvenidos</h2>
                 <p className="password-container-subtitle">
-                    NOS EMBARCAMOS EN UNA AVENTURA Y NUESTRA BODA NO ESTARÍA COMPLETA SIN TU PRESENCIA
+                    NOS EMBARCAMOS EN UNA AVENTURA QUE NO ESTARÍA COMPLETA SIN TU PRESENCIA
                 </p>
                 {!passwordPreviouslyEntered ? (
                     <form onSubmit={handleSubmit}>

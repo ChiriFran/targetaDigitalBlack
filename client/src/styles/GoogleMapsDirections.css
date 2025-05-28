@@ -5,7 +5,6 @@
     padding: 20px;
     box-sizing: border-box;
     flex-wrap: wrap;
-    background-color: #F8F4F0;
     color: var(--main-color);
 }
 
@@ -48,8 +47,8 @@
     position: relative;
     margin-top: 1rem;
     padding: 10px 20px;
-    background-color: #ffffff;
-    color: var(--main-color);
+    background-color: #eee;
+    color: #2e2e2e;
     text-decoration: none;
     font-weight: 40;
     transition: 0.3s ease-in-out;

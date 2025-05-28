@@ -7,7 +7,7 @@
     width: 100%;
     margin: 1.2rem auto;
     text-align: center;
-    border: 3px solid #B66E41;
+    border: 3px solid #eee;
     padding: 20px;
     background-color: var(--bg-color);
 }
@@ -26,19 +26,23 @@
 .instagramHashtagContainer p {
     font-size: 1rem;
     margin: 0 0 2rem;
-    color: #D4AF7F;
+    color: #bcbcbc;
 }
 
 .instagramHashtagContainer span {
     font-size: 1.5rem;
     font-weight: 900;
     margin-bottom: 0.5rem;
-    color: #B66E41;
+    color: #eee;
     font-weight: 400;
 }
 
 @media (max-width: 480px) {
     .instagramHashtagContainer {
         width: 90%;
+    }
+
+    .instagramHashtagContainer h2 {
+        font-size: 1rem;
     }
 }

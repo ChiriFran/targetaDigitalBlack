@@ -9,7 +9,7 @@ function InstagramHashtag() {
                 <img src={camaraImg} alt="camara icon" />
                 <h2>¡Queremos ver todas sus fotos!</h2>
                 <p>Pueden usar nuestro # en todas sus publicaciones e historias de Instagram</p>
-                <span>#NUESTROCASAMIENTO</span>
+                <span>#XVMARIA</span>
             </div>
         </>
     )

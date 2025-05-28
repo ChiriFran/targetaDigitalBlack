@@ -1,8 +1,11 @@
-import iconCivil from '../../media/icons/civil.webp'
-import iconNovios from '../../media/icons/novios.webp'
+import iconRecepcion from '../../media/icons/recepcion.webp'
+import iconBaile from '../../media/icons/baile.webp'
 import iconFiesta from '../../media/icons/fiesta.webp'
 import iconFecha from '../../media/icons/calendario.webp'
 import iconDresscode from '../../media/icons/mono.webp'
+import iconComida from '../../media/icons/comida.webp'
+import iconVideos from '../../media/icons/videos.webp'
+import iconCena from '../../media/icons/cena.webp'
 
 import "../styles/EventInfo.css";
 
@@ -11,7 +14,7 @@ function EventInfo() {
     const infoTop = [
         {
             icon: <img src={iconFecha} alt="icono" className="iconImg iconTopBottom" />,
-            title: "¿Cuando nos casamos?",
+            title: "¿Cuando nos vemos?",
             subtitle: "10-9-25",
         },
     ];
@@ -19,20 +22,35 @@ function EventInfo() {
     // Info dentro de la tarjeta (Itinerario)
     const eventDetails = [
         {
-            icon: <img src={iconCivil} alt="icono" className="iconImg" />,
-            title: "Civil",
-            subtitle: "11:00 hs",
+            icon: <img src={iconRecepcion} alt="icono" className="iconImg" />,
+            title: "Recepcion",
+            subtitle: "21:00 hs",
         },
         {
-            icon: <img src={iconNovios} alt="icono" className="iconImg" />,
-            title: "Ceremonia",
-            subtitle: "18:00 hs",
+            icon: <img src={iconCena} alt="icono" className="iconImg" />,
+            title: "Cena",
+            subtitle: "22:00 hs",
         },
         {
             icon: <img src={iconFiesta} alt="icono" className="iconImg" />,
             title: "Fiesta",
-            subtitle: "21:30 hs",
-        }
+            subtitle: "22:45 hs",
+        },
+        {
+            icon: <img src={iconBaile} alt="icono" className="iconImg" />,
+            title: "Baile",
+            subtitle: "23:45 hs",
+        },
+        {
+            icon: <img src={iconVideos} alt="icono" className="iconImg" />,
+            title: "Videos",
+            subtitle: "24:00 hs",
+        },
+        {
+            icon: <img src={iconComida} alt="icono" className="iconImg" />,
+            title: "Comida",
+            subtitle: "04:00 hs",
+        },
     ];
 
     // Info abajo de la tarjeta

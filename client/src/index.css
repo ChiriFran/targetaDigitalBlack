@@ -12,9 +12,9 @@
 /* Variables y estilos globales */
 :root {
   --main-font: "Alfa Slab One";
-  --main-color: #B66E41;
-  --detail-color: #D4AF7F;
-  --bg-color: #F8F4F0;
+  --main-color: #eeeeee;
+  --detail-color: #eeeeee;
+  --bg-color: #2e2e2e;
 
   font-family: var(--main-font);
   font-weight: 400;

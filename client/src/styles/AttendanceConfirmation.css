@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: var(--main-color);
+    background-color: #2e2e2e;
 }
 
 .icono-superior {
@@ -15,7 +15,7 @@
 .attendanceConfirmationContainer h2 {
     font-size: 2rem;
     font-weight: 400;
-    color: #F8F4F0;
+    color: #eee;
     padding: 1rem 0;
 }
 
@@ -23,7 +23,7 @@
     max-width: 600px;
     margin: 30px auto;
     padding: 20px;
-    background-color: #F8F4F0;
+    background-color: #eee;
     font-family: Arial, sans-serif;
 }
 
@@ -32,7 +32,7 @@
     display: block;
     margin-bottom: 12px;
     font-weight: bold;
-    color: var(--main-color);
+    color: #2e2e2e;
 }
 
 .select-cantidad {
@@ -44,14 +44,13 @@
 
 .tarjeta-persona {
     padding: 15px;
-    background-color: var();
     margin-bottom: 20px;
 }
 
 .tarjeta-persona h3 {
     margin-top: 0;
     margin-bottom: 10px;
-    color: var(--main-color);
+    color: #2e2e2e;
 }
 
 .tarjeta-persona input,
@@ -60,13 +59,13 @@
     padding: 10px;
     margin-top: 8px;
     margin-bottom: 12px;
-    border: 1px solid #a9a9a9;
+    border: 1px solid #2e2e2e;
 }
 
 .boton-enviar {
     width: 100%;
     padding: 12px;
-    background-color: var(--main-color);
+    background-color: #2e2e2e;
     color: #F8F4F0;
     font-size: 16px;
     font-weight: bold;
@@ -89,6 +88,10 @@
 
 .boton-enviar:disabled:hover {
     text-decoration: none;
+}
+
+.restriccionAlimentariaTitle{
+    color: #454545;
 }
 
 @media (max-width: 480px) {
