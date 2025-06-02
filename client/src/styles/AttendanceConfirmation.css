@@ -5,6 +5,7 @@
     justify-content: center;
     width: 100%;
     background-color: #2e2e2e;
+    font-family: 'Courier New';
 }
 
 .icono-superior {
@@ -14,7 +15,7 @@
 
 .attendanceConfirmationContainer h2 {
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 700;
     color: #eee;
     padding: 1rem 0;
 }
@@ -90,7 +91,7 @@
     text-decoration: none;
 }
 
-.restriccionAlimentariaTitle{
+.restriccionAlimentariaTitle {
     color: #454545;
 }
 

@@ -10,6 +10,7 @@
     border: 3px solid #eee;
     padding: 20px;
     background-color: var(--bg-color);
+    font-family: 'Courier New';
 }
 
 .instagramHashtagContainer img {
@@ -20,13 +21,13 @@
 .instagramHashtagContainer h2 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .instagramHashtagContainer p {
     font-size: 1rem;
     margin: 0 0 2rem;
-    color: #bcbcbc;
+    color: #d9d8d8;
 }
 
 .instagramHashtagContainer span {
@@ -34,7 +35,8 @@
     font-weight: 900;
     margin-bottom: 0.5rem;
     color: #eee;
-    font-weight: 400;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 @media (max-width: 480px) {

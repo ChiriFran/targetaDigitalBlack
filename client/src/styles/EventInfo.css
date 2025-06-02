@@ -7,7 +7,7 @@
     padding: 3rem;
     box-sizing: border-box;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New';
     background-color: #2e2e2e;
 }
 
@@ -50,22 +50,27 @@
 .event-card__detail-title {
     font-weight: 500;
     font-size: 1.4rem;
-    margin-bottom: 4px;
+    margin-top: 1rem;
 }
 
 .event-card__detail-title-top-botom {
+    font-family: 'Courier New';
     font-size: 1.5rem;
 }
 
 .event-card__detail-subtitle {
-    font-size: 0.9rem;
+    font-family: 'Courier New';
+    font-size: 1.2rem;
     color: var(--main-color);
+    margin-top: 0.5rem;
     margin-bottom: 3rem;
 }
 
 .event-card__detail-subtitle-top-botom {
+    font-family: 'Courier New';
     font-size: 1.5rem;
     margin: 1.5rem;
+    font-weight: 700;
 }
 
 .iconImg {
