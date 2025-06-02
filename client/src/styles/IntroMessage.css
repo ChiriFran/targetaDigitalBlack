@@ -53,6 +53,23 @@
         border-top: none;
         border-bottom: none;
         padding: 1rem 0.5rem;
+        font-size: 1rem;
+    }
+
+
+    .introMessageContainer::after {
+        bottom: -32%;
+        width: 20%;
+        height: 100%;
+        background-size: 120px;
+    }
+
+
+    .introMessageContainer::before {
+        bottom: -32%;
+        width: 20%;
+        height: 100%;
+        background-size: 120px;
     }
 
 }
