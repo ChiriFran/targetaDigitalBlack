@@ -1,4 +1,5 @@
 .attendanceConfirmationContainer {
+    position: relative;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -6,6 +7,7 @@
     width: 100%;
     background-color: #2e2e2e;
     font-family: 'Courier New';
+    z-index: -10;
 }
 
 .icono-superior {
@@ -21,11 +23,29 @@
 }
 
 .form-container {
+    position: relative;
     max-width: 600px;
     margin: 30px auto;
     padding: 20px;
     background-color: #eee;
     font-family: Arial, sans-serif;
+    z-index: 100;
+}
+
+.form-container::before {
+    content: '';
+    position: absolute;
+    top: -25%;
+    right: -25%;
+    width: 40%;
+    height: 40%;
+    background-image: url(../../media/backgroundImg/corazon-blanco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 160px;
+    opacity: 0.9;
+    transform: rotate(25deg);
+    z-index: 0;
 }
 
 .label-cantidad {
@@ -107,5 +127,9 @@
 
     .form-container {
         margin: 30px 15px;
+    }
+
+    .form-container::before {
+        display: none;
     }
 }

@@ -9,6 +9,19 @@
     font-family: 'Courier New';
 }
 
+.footerContainer::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 180px;
+    background-image: url(../../media/backgroundImg/brindis-blanco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .footerMessage {
     font-size: 1.6rem;
     color: #F8F4F0;
@@ -33,5 +46,9 @@
 
     .footerName {
         font-size: 1.4rem;
+    }
+
+    .footerContainer::after {
+        display: none;
     }
 }
