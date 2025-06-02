@@ -1,7 +1,7 @@
 /* EventInfoCard.css */
 .event-card {
     position: relative;
-    max-width: 400px;
+    max-width: 90%;
     margin: 20px auto;
     border: 3px solid var(--main-color);
     padding: 3rem;
@@ -35,7 +35,9 @@
 
 .event-card__details {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     gap: 20px;
 }
 
@@ -74,6 +76,23 @@
     width: 120px;
 }
 
+.dresscode-colors {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.dresscode-color {
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+
+}
+
 /* Responsive: para pantallas pequeñas */
 @media (max-width: 480px) {
     .event-card {
@@ -83,6 +102,11 @@
 
     .event-card__title {
         font-size: 1.3rem;
+    }
+
+    .event-card__details {
+        display: flex;
+        flex-direction: column;
     }
 
     .event-card__detail-title-top-botom {
@@ -96,5 +120,10 @@
 
     .event-card__detail-subtitle-top-botom {
         font-size: 1.2rem;
+    }
+
+    .dresscode-color {
+        width: 50px;
+        height: 50px;
     }
 }

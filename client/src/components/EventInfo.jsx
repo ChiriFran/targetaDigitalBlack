@@ -10,7 +10,6 @@ import iconCena from '../../media/icons/cena.webp'
 import "../styles/EventInfo.css";
 
 function EventInfo() {
-    // Info arriba de la tarjeta
     const infoTop = [
         {
             icon: <img src={iconFecha} alt="icono" className="iconImg iconTopBottom" />,
@@ -19,7 +18,6 @@ function EventInfo() {
         },
     ];
 
-    // Info dentro de la tarjeta (Itinerario)
     const eventDetails = [
         {
             icon: <img src={iconRecepcion} alt="icono" className="iconImg" />,
@@ -53,12 +51,12 @@ function EventInfo() {
         },
     ];
 
-    // Info abajo de la tarjeta
     const infoBottom = [
         {
             icon: <img src={iconDresscode} alt="icono" className="iconImg iconTopBottom" />,
             title: "Dress Code",
             subtitle: "ELEGANTE SPORT",
+            colors: ['#E3D0BA', '#8A9BA8', '#D9A3B1'], // paleta sugerida
         },
     ];
 
@@ -70,6 +68,22 @@ function EventInfo() {
                     <div className="event-card__text">
                         <div className="event-card__detail-title-top-botom">{item.title}</div>
                         <div className="event-card__detail-subtitle-top-botom">{item.subtitle}</div>
+
+                        {item.colors && (
+                            <div className="dresscode-colors">
+                                {item.colors.map((color, i) => (
+                                    <div
+                                        key={i}
+                                        className="dresscode-color"
+                                        style={{
+                                            backgroundColor: color,
+                                            zIndex: 3 - i,
+                                            marginLeft: i === 0 ? 0 : -12,
+                                        }}
+                                    ></div>
+                                ))}
+                            </div>
+                        )}
                     </div>
                 </div>
             ))}
@@ -78,10 +92,8 @@ function EventInfo() {
 
     return (
         <div>
-            {/* Info arriba */}
             {renderInfoList(infoTop)}
 
-            {/* Tarjeta itinerario */}
             <div className="event-card">
                 <h2 className="event-card__title">Itinerario</h2>
                 <div className="event-card__details">
@@ -97,7 +109,6 @@ function EventInfo() {
                 </div>
             </div>
 
-            {/* Info abajo */}
             {renderInfoList(infoBottom)}
         </div>
     );

@@ -30,31 +30,29 @@
 }
 
 .heroMask::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 20%;
-  background: linear-gradient(
-    to top,
-    #2e2e2e 0%,
-    rgba(46, 46, 46, 0.8) 25%,
-    rgba(46, 46, 46, 0.4) 60%,
-    rgba(46, 46, 46, 0) 100%
-  );
-  z-index: 1;
-  pointer-events: none;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(to top,
+            #2e2e2e 0%,
+            rgba(46, 46, 46, 0.8) 25%,
+            rgba(46, 46, 46, 0.4) 60%,
+            rgba(46, 46, 46, 0) 100%);
+    z-index: 1;
+    pointer-events: none;
 }
 
 .heroNames {
     position: absolute;
-    bottom: 0;
-    left: 50%;
+    bottom: -20%;
+    left: 49%;
     transform: translate(-50%, -50%);
     z-index: 2;
     font-family: 'Great Vibes', cursive;
-    font-size: 10rem;
+    font-size: 15rem;
     /* más grande si querés que destaque */
     color: #f8f4f0;
     font-weight: 400;
@@ -70,8 +68,7 @@
 
     /* Texto en la esquina inferior derecha */
     .heroNames {
-        bottom: 5px;
-        right: 5px;
         font-size: 4rem;
+        bottom: 0;
     }
 }
