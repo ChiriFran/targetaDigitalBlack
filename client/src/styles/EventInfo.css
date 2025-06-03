@@ -42,6 +42,7 @@
 }
 
 .event-card__title {
+    font-family: 'Great Vibes', 'cursive';
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 4rem;
@@ -70,7 +71,7 @@
 }
 
 .event-card__detail-title-top-botom {
-    font-family: 'Courier New';
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
 }
 
