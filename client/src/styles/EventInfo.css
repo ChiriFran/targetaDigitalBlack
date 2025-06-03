@@ -43,7 +43,7 @@
 
 .event-card__title {
     font-family: 'Great Vibes', 'cursive';
-    font-size: 1.5rem;
+    font-size: 3.5rem;
     font-weight: 600;
     margin-bottom: 4rem;
     color: var(--main-color);
@@ -118,11 +118,11 @@
 @media (max-width: 480px) {
     .event-card {
         max-width: 90%;
-        padding: 15px;
+        padding: 2rem;
     }
 
     .event-card__title {
-        font-size: 1.3rem;
+        font-size: 3rem;
     }
 
     .event-card__details {
