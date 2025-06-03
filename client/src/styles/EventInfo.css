@@ -47,7 +47,6 @@
     font-weight: 600;
     margin-bottom: 4rem;
     color: var(--main-color);
-    text-transform: uppercase;
 }
 
 .event-card__details {
